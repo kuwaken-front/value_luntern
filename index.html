@@ -1,13 +1,48 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>バリューランタン</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="catch_picture">
+
+    </div>
+    <div class="contents">
+        <header>
+          <h1 class="vertical-text">自分を見失いそうなとき<br>あなたの光となる<br>バリューランタン</h1>
+        </header>
+        <div class="introduction">
+            <p>バリューランタンは、<br>個人の価値観を視覚化し、記録します。<br>このアプリを使って、<br>自分自身の核となる価値観を探求し、<br>日々の決断を導く指針を確立しましょう。</p>
+        </div>
+        <section class="features">
+          <div class="feature-row">
+              <div class="feature">
+                  <h3>炎 (Flame)</h3>
+                  <p>情熱と動機を象徴し、内面から湧き出るエネルギーを表します。</p>
+              </div>
+              <div class="feature">
+                  <h3>プロテクション (Protection)</h3>
+                  <p>価値観を守り、育てるための環境や条件を示します。</p>
+              </div>
+          </div>
+          <div class="feature-row">
+              <div class="feature">
+                  <h3>ハンドル (Handle)</h3>
+                  <p>価値観を日常生活でどのように持ち運び、使いこなすかを表します。</p>
+              </div>
+              <div class="feature">
+                  <h3>ライト (Light)</h3>
+                  <p>価値観が周囲に及ぼす影響を示し、周囲を照らします。</p>
+              </div>
+          </div>
+        </section>
+        <footer>
+            <button onclick="startApp()" class="button">アプリケーションに進む</button>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
 </html>
