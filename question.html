@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>バリューランタンアプリケーション</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="questions">
+            <div class="question">
+                <h3>炎 (Flame)</h3>
+                <p>あなたの人生で一番大事にしたい２つのことはなに？</p>
+            </div>
+            <div class="question">
+                <h3>プロテクション (Protection)</h3>
+                <p>あなたの価値観を支えるものはなんだろう？</p>
+            </div>
+            <div class="question">
+                <h3>ハンドル (Handle)</h3>
+                <p>あなたの価値観から外れた行動をするのはどんなとき？</p>
+            </div>
+            <div class="question">
+                <h3>ライト (Light)</h3>
+                <p>あなたの価値観に沿った行動をとれたのはどんなとき？</p>
+            </div>
+        </div>
+        <div class="answers">
+            <input type="text" id="flameAnswer" placeholder="炎に関する回答">
+            <input type="text" id="protectionAnswer" placeholder="プロテクションに関する回答">
+            <input type="text" id="handleAnswer" placeholder="ハンドルに関する回答">
+            <input type="text" id="lightAnswer" placeholder="ライトに関する回答">
+            <button id ="submitButton">完了</button>
+        </div>
+    </div>
+    <script src="src\app.ts"></script>
+</body>
+</html>
